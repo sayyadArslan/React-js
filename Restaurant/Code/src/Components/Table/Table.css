@@ -1,0 +1,13 @@
+.table
+{
+    padding: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    transition: 0.8s;
+    font-size: large;
+    margin-top: 10px;
+}
+.table:hover
+{
+    background-color: green;
+}
