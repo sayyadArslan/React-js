@@ -1,0 +1,45 @@
+.tables
+{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.table-heading
+{
+    background-color: #fa8d14;
+    padding: 10px;
+    color: white;
+}
+
+.table
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    transition: 0.8s;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
+    gap:20px;
+}
+.table button
+{
+    width: 140px;
+    height: 45px;
+    background-color: #fa8d14;
+    border: none;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+}
+@media (max-width:600px) {
+      .table-heading
+      {
+        font-size: 12px;
+      }  
+}

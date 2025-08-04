@@ -1,0 +1,58 @@
+.loginscreen
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Login h1
+{
+    margin-bottom: 20px;
+    color: #fa8d14;
+}
+form input 
+{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: large;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid #fa8d14;
+}
+.btn
+{
+    width: 160px;
+    height: 50px;
+    background-color: #fa8d14;
+    color: white;
+    border-radius: 50px;
+    font-size: large;
+    border: none;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+}
+a
+{
+    font-size: large;
+}
+img
+{
+    width: 25px;
+    position: relative;
+    top: -8px;
+    left: -15%;
+}
+form div
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
