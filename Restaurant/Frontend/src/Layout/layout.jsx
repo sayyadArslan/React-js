@@ -11,7 +11,7 @@ const Layout = () => {
         <div className="layout">
             <SideBar />
             <div className="content">
-                <Addproduct/>
+                <Tableform/>
             </div>
           
            {/*

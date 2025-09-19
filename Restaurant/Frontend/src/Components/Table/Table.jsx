@@ -14,6 +14,26 @@ const Table = (props)=>{
                 <h2>Time</h2>
                 <button>Add Table</button>
                 </div>
+                 <div className="table">
+                <h1>Table No:</h1>
+                <h2>Time</h2>
+                <button>Add Table</button>
+                </div>
+                 <div className="table">
+                <h1>Table No:</h1>
+                <h2>Time</h2>
+                <button>Add Table</button>
+                </div>
+                 <div className="table">
+                <h1>Table No:</h1>
+                <h2>Time</h2>
+                <button>Add Table</button>
+                </div>
+                 <div className="table">
+                <h1>Table No:</h1>
+                <h2>Time</h2>
+                <button>Add Table</button>
+                </div>
                 
             </div>       
         </div>

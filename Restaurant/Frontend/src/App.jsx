@@ -7,8 +7,8 @@ import Order from "./Components/Order/Order";
 const App = ()=>
 {
   return(
-        
-      <Layout/>
+    
+        <Order/>
   )
 }
 export default App;
